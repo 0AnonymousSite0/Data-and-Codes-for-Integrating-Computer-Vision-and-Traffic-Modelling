@@ -1,0 +1,872 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19"
+     xml:base="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_E_D -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_E_D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_E_V -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_E_V">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_R_D -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_R_D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_R_V -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_R_V">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_V_D -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#affect_V_D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#consist_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#consist_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#detect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#detect">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Detection_Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Composition_of_Vehicle_Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Disruption"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Distribution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Length"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Surface_Category"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Width"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Number_of_Lanes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Traffic_Sign"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Vehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Direction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Length"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Width"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Surface_Category"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Sign"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Colour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Size"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Volume"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Weather_Condition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#generate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#generate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Route"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#locate_near -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#locate_near">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Traffic_Sign"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#run_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#run_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#support -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#support">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Detection_Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tracking_Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#track -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#track">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tracking_Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Car_Follow_Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desired_Lateral_Position"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Change_Behaviour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Temporary_Lack_of_Attention"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Turnning_Ratio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Acceleration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Deceleration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Speed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Car_Follow_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Car_Follow_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Composition_of_Vehicle_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Composition_of_Vehicle_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Computer_Vision_Techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Computer_Vision_Techniques">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Cycle_Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Cycle_Length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Decision_Making_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Decision_Making_Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desired_Lateral_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desired_Lateral_Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desitination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desitination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Dynamic_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Destination_Link -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Destination_Link">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Detection_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Detection_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Computer_Vision_Techniques"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tracking_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Disruption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Disruption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Dynamic_Vehicle_Routes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Dynamic_Vehicle_Routes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Route"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Form_of_Way -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Form_of_Way">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Functional_Road_Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Functional_Road_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Change_Behaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Change_Behaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Service_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Service_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Surface_Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Surface_Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Width -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Width">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Link -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Link">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Look_ahead_Distance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Look_ahead_Distance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Look_back_Distance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Look_back_Distance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Number_of_Lanes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Number_of_Lanes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Observed_Vehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Observed_Vehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Origin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Origin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Dynamic_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Traffic_Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Traffic_Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Traffic_Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Vehicle_Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Position_of_Vehicle_Input">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Direction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Direction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Width -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Width">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Service_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Service_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Surface_Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Surface_Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Traffic_Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Speed_Limit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Speed_Limit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#StrategyType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#StrategyType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Dynamic_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Temporary_Lack_of_Attention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Temporary_Lack_of_Attention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Time_Interval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Time_Interval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Timing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Timing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tracking_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tracking_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Computer_Vision_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Traffic_Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Traffic_Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Turnning_Ratio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Turnning_Ratio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Static_Vehicle_Routes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_From -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_From">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_To -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_To">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Acceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Acceleration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Colour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Colour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Deceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Deceleration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Transport_Elements_for_Simulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Volume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Volume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Weather_Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Weather_Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Car_Follow_Model"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desired_Lateral_Position"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Change_Behaviour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Look_ahead_Distance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Look_back_Distance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Observed_Vehicles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Temporary_Lack_of_Attention"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Cycle_Length"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Phase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Timing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Disruption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Time_Interval"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Weather_Condition"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Decision_Making_Position"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Destination_Link"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Link"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Turnning_Ratio"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Desitination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#StrategyType"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Driver_Behaviour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Signal_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Traffic_Sign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Form_of_Way"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Functional_Road_Class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Number_of_Lanes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Direction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Length"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Link_Width"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Service_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Surface_Category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Speed_Limit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_From"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_To"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Code"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Length"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Service_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Surface_Category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Lane_Width"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Speed_Limit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_From"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Valid_To"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Road_Elements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Tempo-spatial_Environment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Elements"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Generation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhou/ontologies/2020/3/untitled-ontology-19#Vehicle_Route"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
