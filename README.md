@@ -1,4 +1,6 @@
-# Data-and-Codes-for-Integrating-CV-and-TM
+# Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
+
+
 # 0. Certain video clips during the study
 
 ## 0.1 Computer vision for perceiving real-time traffic conditions
@@ -67,7 +69,7 @@ Figure 4. The program is transmitting real-time traffic surveillance videos
 Figure 5. The developed detector and selected tracker is detecting and tracking vehicles
 
 
-## 2.4 Codes for manipulating traffic simulation model
+## 2.4 Codes for manipulating traffic model
 
 
 This is mainly designed for automatically operate the traffic simulation model, including amendeding parameters and conducting simulation-based optimiozation of signal timing solutions. A reminder is that running this program needs the VISSIM COM API that is a commercial product, but we think that the API should be easily available, as the VISSIM is one of the most widely used transportation-related software all over the world.
@@ -77,10 +79,10 @@ This is mainly designed for automatically operate the traffic simulation model, 
 Figure 6. The program is automatically operating the traffic simulation model
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Screenshots%20of%20traffic%20simulation%201.png)
-Figure 7. Screenshot of traffic simulation (a)
+Figure 7. Screenshot of traffic simulation model (a)
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Screenshots%20of%20traffic%20simulation%202.png)
-Figure 8. Screenshot of traffic simulation (b)
+Figure 8. Screenshot of traffic simulation model (b)
 
 
 
