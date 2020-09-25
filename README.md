@@ -40,10 +40,10 @@ OpenCV (https://opencv.org/), Tensorflow (https://github.com/tensorflow/models),
 This is for doing transfer learning of ready-developed detector (i.e., Yolo v3 in this case study). The manually labelled images are attached in the "labelled images of local traffic for transfer learning" file. We use the open-source tool 
 labelImg (https://github.com/tzutalin/labelImg) to manually label the images. Additionally, the training process supports GPU computing.
 
-![image](https://github.com/0AnonymousSite0/Codes-and-data-for-integrating-computer-vision-and-traffic-simulation/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(1).png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(1).png)
 Figure 1. The transfer learning program is loading the existing model and freezing certain layers (The warnings in red colours are caused by the version of TensorFlow, which do not influence the program running)
 
-![image](https://github.com/0AnonymousSite0/Codes-and-data-for-integrating-computer-vision-and-traffic-simulation/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(2).png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(2).png)
 Figure 2. The transfer learning program is training epoch by epoch
 
 
