@@ -1,4 +1,6 @@
-# Data-and-Codes-for-Integrating-CV-and-TM
+# Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
+
+
 # 0. Certain video clips during the study
 
 ## 0.1 Computer vision for perceiving real-time traffic conditions
@@ -38,10 +40,10 @@ OpenCV (https://opencv.org/), Tensorflow (https://github.com/tensorflow/models),
 This is for doing transfer learning of ready-developed detector (i.e., Yolo v3 in this case study). The manually labelled images are attached in the "labelled images of local traffic for transfer learning" file. We use the open-source tool 
 labelImg (https://github.com/tzutalin/labelImg) to manually label the images. Additionally, the training process supports GPU computing.
 
-![image](https://github.com/0AnonymousSite0/Codes-and-data-for-integrating-computer-vision-and-traffic-simulation/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(1).png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(1).png)
 Figure 1. The transfer learning program is loading the existing model and freezing certain layers (The warnings in red colours are caused by the version of TensorFlow, which do not influence the program running)
 
-![image](https://github.com/0AnonymousSite0/Codes-and-data-for-integrating-computer-vision-and-traffic-simulation/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(2).png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(2).png)
 Figure 2. The transfer learning program is training epoch by epoch
 
 
@@ -67,7 +69,7 @@ Figure 4. The program is transmitting real-time traffic surveillance videos
 Figure 5. The developed detector and selected tracker is detecting and tracking vehicles
 
 
-## 2.4 Codes for manipulating traffic simulation model
+## 2.4 Codes for manipulating traffic model
 
 
 This is mainly designed for automatically operate the traffic simulation model, including amendeding parameters and conducting simulation-based optimiozation of signal timing solutions. A reminder is that running this program needs the VISSIM COM API that is a commercial product, but we think that the API should be easily available, as the VISSIM is one of the most widely used transportation-related software all over the world.
@@ -77,10 +79,10 @@ This is mainly designed for automatically operate the traffic simulation model, 
 Figure 6. The program is automatically operating the traffic simulation model
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Screenshots%20of%20traffic%20simulation%201.png)
-Figure 7. Screenshot of traffic simulation (a)
+Figure 7. Screenshot of traffic simulation model (a)
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Screenshots%20of%20traffic%20simulation%202.png)
-Figure 8. Screenshot of traffic simulation (b)
+Figure 8. Screenshot of traffic simulation model (b)
 
 
 
