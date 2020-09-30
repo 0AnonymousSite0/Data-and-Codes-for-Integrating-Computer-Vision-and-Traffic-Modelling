@@ -1,6 +1,6 @@
 # Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
 
-***The license has no effect before 23:59 on Dec.31.2020. In other words, any materials in this repository currently are not allowed for reuses by others without the authors' permission.
+Attention! The license has no effect before 23:59 on Dec.31.2020. In other words, any materials in this repository currently are not allowed for reuses by others without the authors' permission.
 
 # 0. Certain video clips during the study
 
