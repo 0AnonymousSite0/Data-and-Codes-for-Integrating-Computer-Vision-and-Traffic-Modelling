@@ -1,4 +1,4 @@
-Attention! The license has no effect before 23:59 on Feb.28.2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
+Attention! The license has no effect before 23:59 on Feb. 28 2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
 
 # Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
 
