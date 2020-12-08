@@ -1,3 +1,4 @@
+
 # Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
 
 Attention! The license has no effect before 23:59 on Jan.31.2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
@@ -6,15 +7,15 @@ Attention! The license has no effect before 23:59 on Jan.31.2021. In other words
 
 ## 0.1 Computer vision for perceiving real-time traffic conditions
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Video%20Clips/Video%20Clip%20(1).gif)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video%20Clip%20(1).gif)
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Video%20Clips/Video%20Clip%20(2).gif)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video%20Clip%20(2).gif)
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Video%20Clips/Video%20Clip%20(3).gif) 
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video%20Clip%20(3).gif) 
 
 ## 0.2 Traffic simulation for near-real-time optimization
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Video%20Clips/Video-Clip-_Traffic-simulation_.gif) 
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video-Clip-_Traffic-simulation_.gif) 
 
 # 1 General Introduction
 
@@ -41,10 +42,10 @@ OpenCV (https://opencv.org/), Tensorflow (https://github.com/tensorflow/models),
 This is for doing transfer learning of ready-developed detector (i.e., Yolo v3 in this case study). The manually labelled images are attached in the "labelled images of local traffic for transfer learning" file. We use the open-source tool 
 labelImg (https://github.com/tzutalin/labelImg) to manually label the images. Additionally, the training process supports GPU computing.
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(1).png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(1).png)
 Figure 1. The transfer learning program is loading the existing model and freezing certain layers (The warnings in red colours are caused by the version of TensorFlow, which do not influence the program running)
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(2).png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/The%20running%20code%20for%20the%20transfer%20learning%20of%20a%20vehicle%20detector%20(2).png)
 Figure 2. The transfer learning program is training epoch by epoch
 
 
@@ -53,7 +54,7 @@ Figure 2. The transfer learning program is training epoch by epoch
 
 It supports to do the examination of eight widely recognized tracking algorithms, including Boosting, MIL, KCF, TLD, MedianFlow, CSRT, MOSSE, GoTurn. Additionally, as the Caffe model of GoTurn exceeds 100M, it has also been uploaded to Google Drive (https://drive.google.com/drive/folders/1iqD30Gqp4zKBqnEm0Uup64xuQndZz6lT?usp=sharing). 
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20running%20program%20for%20examining%20and%20selecting%20different%20tracking%20algorithms.png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/The%20running%20program%20for%20examining%20and%20selecting%20different%20tracking%20algorithms.png)
 Figure 3. The running program for examining and selecting different tracking algorithms (The colourful lines are the trajectories of each vehicle)
 
 
@@ -63,10 +64,10 @@ Figure 3. The running program for examining and selecting different tracking alg
 The detector is developed based on Yolo V3 by transfer learning, and selected tracker is KCF. Besides, the user could alternate the video resources through "iscam" as shown in the figure below. Here, the real-time video signals are transmitted through the RSTP protocol. Due to privacy protection and public security, we are not allowed to provide the URL of the real-time traffic surveillance video in this case, but you could test the codes with other RSTP sources. The “region of interest” (i.e. yellow shadow in the third video below) could be added to avoid some mis-detections, such as the cars parked on the roadsides.
 
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Transmitting%20and%20receiving%20real-time%20video%20signal.png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Transmitting%20and%20receiving%20real-time%20video%20signal.png)
 Figure 4. The program is transmitting real-time traffic surveillance videos
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20program%20is%20detecting%20and%20tracking%20vehicles.png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/The%20program%20is%20detecting%20and%20tracking%20vehicles.png)
 Figure 5. The developed detector and selected tracker is detecting and tracking vehicles
 
 
@@ -76,14 +77,16 @@ Figure 5. The developed detector and selected tracker is detecting and tracking 
 This is mainly designed for automatically operate the traffic simulation model, including amendeding parameters and conducting simulation-based optimiozation of signal timing solutions. A reminder is that running this program needs the VISSIM COM API that is a commercial product, but we think that the API should be easily available, as the VISSIM is one of the most widely used transportation-related software all over the world.
 
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/The%20runnning%20codes%20for%20automatically%20operate%20the%20traffic%20simulation%20model.png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/The%20runnning%20codes%20for%20automatically%20operate%20the%20traffic%20simulation%20model.png)
 Figure 6. The program is automatically operating the traffic simulation model
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Screenshots%20of%20traffic%20simulation%201.png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Screenshots%20of%20traffic%20simulation%201.png)
 Figure 7. Screenshot of traffic simulation model (a)
 
-![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots/Screenshots%20of%20traffic%20simulation%202.png)
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Screenshots%20of%20traffic%20simulation%202.png)
 Figure 8. Screenshot of traffic simulation model (b)
+
+
 
 
 
