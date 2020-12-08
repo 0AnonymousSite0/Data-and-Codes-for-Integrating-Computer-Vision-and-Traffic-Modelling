@@ -1,11 +1,14 @@
+Attention! The license has no effect before 23:59 on Jan.31.2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
 
 # Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
 
-Attention! The license has no effect before 23:59 on Jan.31.2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
+# 0. The inventory of all materials in this Github repository
 
-# 0. Certain video clips during the study
+![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/List%20of%20all%20materials%20in%20the%20GitHub.png)
 
-## 0.1 Computer vision for perceiving real-time traffic conditions
+# 1. Certain video clips during the study
+
+## 1.1 Computer vision for perceiving real-time traffic conditions
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video%20Clip%20(1).gif)
 
@@ -13,30 +16,30 @@ Attention! The license has no effect before 23:59 on Jan.31.2021. In other words
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video%20Clip%20(3).gif) 
 
-## 0.2 Traffic simulation for near-real-time optimization
+## 1.2 Traffic simulation for near-real-time optimization
 
 ![image](https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling/blob/master/Screenshots%20and%20Video%20clips/Video-Clip-_Traffic-simulation_.gif) 
 
-# 1 General Introduction
+# 2 General Introduction
 
-1.1 This repository aims at providing the codes and data regarding the paper entitled “ The Integration of Computer Vision and Traffic Simulation for Near-real-time Signal Timing Optimization of Multiple Intersections” for the public, and it is developed by The University of ****.
+2.1 This repository aims at providing the codes and data regarding the paper entitled “ The Integration of Computer Vision and Traffic Simulation for Near-real-time Signal Timing Optimization of Multiple Intersections” for the public, and it is developed by The University of ****.
 
-1.2 All codes are developed on Python 3.6, and the IDE adopted is PyCharm (Professional version). The codes also support the GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130.
+2.2 All codes are developed on Python 3.6, and the IDE adopted is PyCharm (Professional version). The codes also support the GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130.
 
-1.3 We greatly appreciate the selfless spirits of these voluntary contributors of a series of open python libraries, including 
+2.3 We greatly appreciate the selfless spirits of these voluntary contributors of a series of open python libraries, including 
 OpenCV (https://opencv.org/), Tensorflow (https://github.com/tensorflow/models), Keras (https://github.com/keras-team/keras), Numpy (https://numpy.org/), labelImg (https://github.com/tzutalin/labelImg), pyExcelerator (https://github.com/WoLpH/pyExcelerator), some base works ( https://github.com/Cartucho/mAP, https://github.com/peter-moran/vehicle-detector, https://github.com/ckyrkou/CNN_Car_Detector, https://github.com/nicholaskajoh/ivy, and https://github.com/qqwweee/keras-yolo3), and so on. Our work stands on the shoulders of these giants.
 
-1.4 Before submitting these codes to Github, all of them have been tested to be well-performed as shown in the screenshots below.
+2.4 Before submitting these codes to Github, all of them have been tested to be well-performed as shown in the screenshots below.
 
-1.5 The Python environment clone based on Anaconda is provided in Google Drive (https://drive.google.com/drive/folders/1iqD30Gqp4zKBqnEm0Uup64xuQndZz6lT?usp=sharing). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the python version, computer operating system, and adopted hardware.
+2.5 The Python environment clone based on Anaconda is provided in Google Drive (https://drive.google.com/drive/folders/1iqD30Gqp4zKBqnEm0Uup64xuQndZz6lT?usp=sharing). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the python version, computer operating system, and adopted hardware.
 
-1.6 As for anything regarding the copyright, please refer to the MIT License.
-
-
-# 2. The specifications of developed codes
+2.6 As for anything regarding the copyright, please refer to the MIT License.
 
 
-## 2.1 Codes for training an object detector with transfer learning
+# 3. The specifications of developed codes
+
+
+## 3.1 Codes for training an object detector with transfer learning
 
 
 This is for doing transfer learning of ready-developed detector (i.e., Yolo v3 in this case study). The manually labelled images are attached in the "labelled images of local traffic for transfer learning" file. We use the open-source tool 
@@ -49,7 +52,7 @@ Figure 1. The transfer learning program is loading the existing model and freezi
 Figure 2. The transfer learning program is training epoch by epoch
 
 
-## 2.2 Codes for comparing tracking algorithms
+## 3.2 Codes for comparing tracking algorithms
 
 
 It supports to do the examination of eight widely recognized tracking algorithms, including Boosting, MIL, KCF, TLD, MedianFlow, CSRT, MOSSE, GoTurn. Additionally, as the Caffe model of GoTurn exceeds 100M, it has also been uploaded to Google Drive (https://drive.google.com/drive/folders/1iqD30Gqp4zKBqnEm0Uup64xuQndZz6lT?usp=sharing). 
@@ -58,7 +61,7 @@ It supports to do the examination of eight widely recognized tracking algorithms
 Figure 3. The running program for examining and selecting different tracking algorithms (The colourful lines are the trajectories of each vehicle)
 
 
-## 2.3 Codes for detecting and tracking vehicles
+## 3.3 Codes for detecting and tracking vehicles
 
 
 The detector is developed based on Yolo V3 by transfer learning, and selected tracker is KCF. Besides, the user could alternate the video resources through "iscam" as shown in the figure below. Here, the real-time video signals are transmitted through the RSTP protocol. Due to privacy protection and public security, we are not allowed to provide the URL of the real-time traffic surveillance video in this case, but you could test the codes with other RSTP sources. The “region of interest” (i.e. yellow shadow in the third video below) could be added to avoid some mis-detections, such as the cars parked on the roadsides.
@@ -71,7 +74,7 @@ Figure 4. The program is transmitting real-time traffic surveillance videos
 Figure 5. The developed detector and selected tracker is detecting and tracking vehicles
 
 
-## 2.4 Codes for manipulating traffic model
+## 3.4 Codes for manipulating traffic model
 
 
 This is mainly designed for automatically operate the traffic simulation model, including amendeding parameters and conducting simulation-based optimiozation of signal timing solutions. A reminder is that running this program needs the VISSIM COM API that is a commercial product, but we think that the API should be easily available, as the VISSIM is one of the most widely used transportation-related software all over the world.
