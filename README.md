@@ -1,4 +1,4 @@
-Attention! The license has no effect before 23:59 on Jan.31.2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
+Attention! The license has no effect before 23:59 on Feb. 28 2021. In other words, any material in this repository currently is not allowed for reuse by others without the authors' permission.
 
 # Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling
 
@@ -22,7 +22,7 @@ Attention! The license has no effect before 23:59 on Jan.31.2021. In other words
 
 # 2 General Introduction
 
-2.1 This repository aims at providing the codes and data regarding the paper entitled “ The Integration of Computer Vision and Traffic Simulation for Near-real-time Signal Timing Optimization of Multiple Intersections” for the public, and it is developed by The University of ****.
+2.1 This repository aims at providing the codes and data regarding the paper entitled “Integrating Computer Vision and Traffic Simulation for Near-real-time Signal Timing Optimization of Multiple Intersections” for the public, and it is developed by The University of ****.
 
 2.2 All codes are developed on Python 3.6, and the IDE adopted is PyCharm (Professional version). The codes also support the GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130.
 
